@@ -15,5 +15,7 @@ namespace DAL
         public DbSet<User> Users { get; set; }
 
         public DbSet<Comment> Comments { get; set; }
+
+        public DbSet<Token> Tokens { get; set; }
     }
 }

@@ -75,15 +75,25 @@
     <Compile Include="Migrations\202401271649115_UpdateCommentsAgain.designer.cs">
       <DependentUpon>202401271649115_UpdateCommentsAgain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202401271903027_TokenGenarate.cs" />
+    <Compile Include="Migrations\202401271903027_TokenGenarate.designer.cs">
+      <DependentUpon>202401271903027_TokenGenarate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202401271956514_TokenGenarateUpdated.cs" />
+    <Compile Include="Migrations\202401271956514_TokenGenarateUpdated.designer.cs">
+      <DependentUpon>202401271956514_TokenGenarateUpdated.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\Post.cs" />
+    <Compile Include="Models\Token.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="PostContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\CommentRepo.cs" />
     <Compile Include="Repos\PostRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\TokenRepo.cs" />
     <Compile Include="Repos\UserRepo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -105,6 +115,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202401271649115_UpdateCommentsAgain.resx">
       <DependentUpon>202401271649115_UpdateCommentsAgain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401271903027_TokenGenarate.resx">
+      <DependentUpon>202401271903027_TokenGenarate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401271956514_TokenGenarateUpdated.resx">
+      <DependentUpon>202401271956514_TokenGenarateUpdated.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

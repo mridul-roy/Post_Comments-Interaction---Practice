@@ -18,7 +18,7 @@
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method
             //  to avoid creating duplicate seed data.
-            for (int i = 1; i<= 10; i++)
+/*            for (int i = 1; i<= 10; i++)
             {
                 context.Users.AddOrUpdate(new Models.User
                 {
@@ -54,7 +54,7 @@
                     Time = DateTime.Now,
                     CommentedBy = "User-" + random.Next(1, 11),
                 });
-            }
+            }*/
             
 
 
