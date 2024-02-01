@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 ﻿using DAL.Interfaces;
-
+using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace DAL
 {
@@ -32,5 +32,9 @@ namespace DAL
             return new UserRepo();
         }
 
+        public static IRepo<Token,string,Token> TokenData()
+        {
+            return new TokenRepo();
+        }
     }
 }
